@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-device-width: 800px) {
+    body {
+        font-size: 3em;
+    }
+
+    main {
+        margin: 20px 0;
+        position: initial!important;
+        transform: none!important;
+    }
+
+    table {
+        width: 100%!important;
+    }
+
+    table > tr:first-child() > td {
+        color: red!important;
+    }
+/*
+    article, table {
+        width: 100%!important;
+    }
+
+    header {
+        width: 100%!important;
+    }
+
+    body, header, #menu, #menu > ul {
+        height: 100%;
+    }
+*/
+    #menu {
+        transform: none!important;
+        top: 0!important;
+        width: 100%;
+        padding: 20px!important;
+    }
+
+    #menu > ul {
+        margin-left: 20px;
+    }
+
+    #menu > ul > li {
+        text-align: left!important;
+    }
+}
+
+body {
+    background: #ECECF0;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > p, main > h2 {
+    margin: 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#logo {
+    font-size: 2em;
+}
+
+#logo > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    background: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px #E8E3E1;
+}
+
+header > nav {
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    transform: translate(0, calc(2em - 20px));
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 2px #E8E3E1;
+    border-bottom-left-radius: 10px;
+}
+
+header > nav > ul {
+    list-style: none;
+    text-align: right;
+    background-color: #FFFFFF;
+}
+
+header > nav > ul > li {
+    margin: 10px;
+}
+
+header > nav > ul > li > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+#toggleMenu {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    width: 2em;
+    height: 2em;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.purple {
+    background: #4A4EC7;
+}
+
+.red {
+    background: #FFA0A0;
+}
+
+.green {
+    background: #9BEDCA;
+}
+
+.center {
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
+
+p {
+    margin: 20px;
+}
+
+table {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.paginator {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.paginator > li {
+    float: left;
+    padding: 10px;
+}
+
+.paginator > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.bubble {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
