@@ -7,9 +7,7 @@ import { SearchController } from './search/search.controller';
 import { ResultsController } from './results/results.controller';
 
 @Module({
-  imports: [ConfigModule.forRoot({
-    envFilePath: '.env'
-  })],
+  imports: [],
   controllers: [AppController, OverviewController, SearchController, ResultsController],
   providers: [AppService],
 })

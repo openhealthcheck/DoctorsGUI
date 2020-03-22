@@ -25,3 +25,16 @@ $ npm install
 ```bash
 $ npm run start
 ```
+
+## Known bugs ##
+
+* /views and /public folders are not copied to /dist on build
+* npm run start:prod fails (possibly for same reason)
+
+## Workaround ##
+
+* copy /public and /views folder manually to /dist
+and run with:
+```
+$ npm run start:dev
+````
